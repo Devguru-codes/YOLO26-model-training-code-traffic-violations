@@ -1,4 +1,4 @@
-# YOLO Ultralytics Core
+# YOLO Ultralytics Core (Updated for YOLO26 Architecture)
 ultralytics
 
 # Heavy GPU PyTorch 

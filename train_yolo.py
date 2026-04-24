@@ -47,8 +47,7 @@ def main():
     print("\n--- INITIATING YOLO PIPELINE ---")
     
     # 2. Base Model Architecture
-    # Using 'm' (Medium) architecture. It offers the best tradeoff of high-accuracy vs 40ms speed for Traffic CV. 
-    model = YOLO('yolov8m.pt') 
+    model = YOLO('yolo26s.pt') 
     
     # 3. Model Training
     results = model.train(**training_params)
