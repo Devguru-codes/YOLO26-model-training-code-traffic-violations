@@ -21,7 +21,7 @@ def main():
 
         # ── Duration ──
         "epochs": 200,
-        "patience": 10,           # Early stopping: halt if mAP50-95 stagnates for 50 epochs
+        "patience": 30,           # Early stopping: halt if mAP50-95 stagnates for 50 epochs
 
         # ── Input ──
         "imgsz": 640,             # Standard 640x640 resolution; Quadro 4000 VRAM handles this cleanly
