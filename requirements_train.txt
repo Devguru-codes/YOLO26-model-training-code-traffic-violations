@@ -1,0 +1,8 @@
+# YOLO Ultralytics Core
+ultralytics
+
+# Heavy GPU PyTorch 
+# (By default pip fetches the latest CUDA-compiled binaries on Linux environments)
+torch
+torchvision
+torchaudio

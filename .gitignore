@@ -1,0 +1,32 @@
+# Large Binary Datasets / Images
+master_traffic_violation_dataset/
+*.jpg
+*.png
+*.jpeg
+*.pb
+*.pt
+*.onnx
+
+# Ultralytics / YOLO artifacts
+runs/
+yolov8m.pt
+
+# Python Caches & Virtual Environments
+__pycache__/
+*.pyc
+venv/
+training_env/
+.env
+
+# OCR / Testing
+examples/
+test_ocr_engines.py
+verify_ocr.py
+test_sharpening.py
+head_to_head_results.txt
+florence_100_speed_test.txt
+parameters_used.txt
+
+# OS Native
+.DS_Store
+Thumbs.db
